@@ -1,0 +1,98 @@
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+    nav {
+      background-color: #007BFF;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      margin-right: 20px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #FFD700; /* เปลี่ยนสีเมื่อ hover */
+    }
+
+        h1 {
+            text-align: center;
+            color: #007BFF;
+            margin-top: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .info {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        .images {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .images img {
+            max-width: 100%;
+            height: auto;
+            width: 250px;
+            border-radius: 8px;
+            object-fit: cover;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+
+        
+        }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+  }
+
+  thead th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+
+  tbody th {
+    background-color: #e6f7ff;
+    font-weight: bold;
+  }
+
+  td {
+    background-color: #fafafa;
+  }
+
+  td[colspan] {
+    background-color: #d9f2d9;
+    font-weight: bold;
+    color: #003300;
+  }
